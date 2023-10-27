@@ -102,7 +102,7 @@ public class MyPanel extends JPanel implements KeyListener, ActionListener {
         if (!isStart) {
             g.setColor(Color.white);
             g.setFont(new Font("微软雅黑", Font.BOLD, 40));
-            g.drawString("Press Space to Start/Pause", 100, 350);
+            g.drawString("按下空格键开始/暂停", 100, 350);
         }
 
         //画出食物
